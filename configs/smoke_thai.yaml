@@ -1,0 +1,3 @@
+extends: configs/pilot_thai.yaml
+run_dir: ../tcams_data/runs/smoke_thai
+calibration_samples: 32

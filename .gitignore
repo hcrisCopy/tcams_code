@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.log
+.workbuddy/
+.pytest_cache/
+.venv/
+*.safetensors
+outputs/
+.env
