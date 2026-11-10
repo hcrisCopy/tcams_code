@@ -1,4 +1,4 @@
-# Install the CUDA PyTorch wheel first, as documented in README.md.
+# Target Python 3.12. Install the CUDA PyTorch wheel first, as documented in README.md.
 transformers==4.57.1
 accelerate==1.11.0
 huggingface-hub==0.36.0

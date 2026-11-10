@@ -31,10 +31,10 @@ Qwen/Qwen3Guard-Gen-0.6B/
 
 ## 2. 环境与下载
 
-建议 Linux、Python 3.11、CUDA GPU。按 [PyTorch 官方历史版本指令](https://pytorch.org/get-started/previous-versions/) 安装 CUDA 12.4 构建；服务器驱动须支持该运行时。当前锁定一套较保守的 Transformers 4.57.1 依赖，**尚未在你的服务器做安装验证**。
+建议 Linux、Python 3.12、CUDA GPU。按 [PyTorch 官方历史版本指令](https://pytorch.org/get-started/previous-versions/) 安装 CUDA 12.4 构建；服务器驱动须支持该运行时。[PyTorch 官方 wheel 索引](https://download.pytorch.org/whl/cu124/torch/)提供 torch 2.6.0 的 Python 3.12 构建，[Transformers 4.57.1 发布元数据](https://pypi.org/project/transformers/4.57.1/)也列出 Python 3.12 支持。完整环境**尚未在你的服务器做安装验证**。
 
 ```bash
-conda create -n tcams python=3.11 -y
+conda create -n tcams python=3.12 -y
 conda activate tcams
 python -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 python -m pip install -r requirements.txt
